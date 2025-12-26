@@ -1,8 +1,8 @@
-local gameId = game.GameId
+local placeId = game.PlaceId
 
-if gameId == 117452115137842 then
+if placeId == 117452115137842 then
     loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/7652e50c9531d2d09da95ac126feb01b7ba3a638a028c303dc3b739436d24112/download"))() -- uttc
-elseif gameId == 83363871432855 then
+elseif placeId == 83363871432855 then
     loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/3662f2278234a5736bcdc4104c55fc34a37d95c663d845b5fd926b9dea5f1862/download"))() -- uttc match
 end
 
